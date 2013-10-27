@@ -1,0 +1,19 @@
+<challenge>
+    <name>Sample Challenge</name>
+    <description>This is a description of the whole challenge, this one starts at London Bridge</description>
+    <creator>Oli</creator>
+    <startLocation>51.508100,0.087800</startLocation>
+    <task>
+        <description>Take a Photo of London within 30 seconds</description>
+        <photoEvidence>photo1</photoEvidence>
+        <timeEvidence>30.0</timeEvidence>
+    </task>
+    <task>
+        <description>Answer: "What is the capital of United Kingdom?"</description>
+        <textEvidence>London</textEvidence>
+    </task>
+    <task>
+        <description>Get to within 50 metres of Canary Wharf</description>
+        <gpsEvidence>51.504388,-0.022488,50.0</gpsEvidence>
+    </task>
+</challenge>
