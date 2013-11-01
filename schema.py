@@ -1,4 +1,3 @@
-__author__ = 'Oliver'
 from google.appengine.ext import db
 
 class User(db.Model):
@@ -25,6 +24,10 @@ class Challenge(db.Model):
     def __unicode__(self):
         return self.name
 
+    def serialize(self):
+        return 0
+
+
 
 class Task(db.Model):
     description = db.TextProperty()
@@ -32,7 +35,7 @@ class Task(db.Model):
     sequenceNumber = db.IntegerProperty()
 
     def __unicode__(self):
-        return self.name
+        return self.description
 
 
 class GPSValidation(db.Model):
